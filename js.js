@@ -29,6 +29,10 @@ function limpar() {
 }
 
 function fechar() {
-    document.getElementById("fecha").innerHTML.style="display='none'";
+    document.getElementById("fecha").style.display = "none";
+}
+
+function abrir() {
+    document.getElementById("fecha").style.display = "block";
 }
 
