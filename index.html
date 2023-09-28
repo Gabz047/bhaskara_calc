@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Bhaskara</title>
+</head>
+
+<body>
+    <main>
+        <section class="calculadora-container" id="fecha">
+
+            <div class="btn-close">
+                <button onclick="fehcar()">Fechar</button>
+            </div>
+
+            <h1>Calculadora de Bhaskara</h1>
+
+            <div class="botoes">
+                <section id="container-btns">
+                    <div id="abc">
+                        <div class="btn a">
+                            <input type="number" placeholder="Informe A" id="Ba">
+                        </div>
+                        <div class="btn b">
+                            <input type="number" placeholder="Informe B" id="Bb">
+                        </div>
+                        <div class="btn c">
+                            <input type="number" placeholder="Informe C" id="Bc">
+                        </div>
+                    </div>
+                    <div class="btns-calc">
+                        <button id="btn-calc" onclick="calcular()">
+                            <p>Calcular</p>
+                        </button>
+                        <button id="btn-limpar" onclick="limpar()">
+                            <p>Limpar</p>
+                        </button>
+                    </div>
+                </section>
+                <div id="valor-box">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+
+</html>

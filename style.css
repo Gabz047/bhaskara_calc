@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculadora-container {
+    width: 100vh;
+    height: 50vh;
+    background-color: rgb(36, 36, 36);
+    margin: 10vh auto 0;
+    position: relative;
+}
+
+.btn-close {
+    width: 5vh;
+    height: 5vh;
+    background-color: brown;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2vh;
+}
+
+#container-btns {
+    width: 49%;
+    height: 35vh;
+    background-color: gray;
+    position: relative;
+}
+
+#valor-box {
+    width: 49%;
+    height: 35vh;
+    background-color: cadetblue;
+}
+
+
+#abc {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    top: 10px;
+}
+
+.btn {
+    width: 30%;
+}
+
+.btn input {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.botoes {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    position: relative;
+    top: 3%;
+    left: 1%;
+    right: 1%;
+}
+
+.btns-calc {
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    top: 35%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#btn-calc {
+    width: 45%;
+    height: 90%;
+}
+
+#btn-limpar {
+    width: 45%;
+    height: 90%;
+}
+
