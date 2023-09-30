@@ -14,7 +14,7 @@ body {
 main {
     width: 100%;
     height: 100vh;
-    background-image: url('mengao.jpg');
+    background-image: url('mengaoo.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -196,4 +196,5 @@ h1 {
     background-color: rgb(250, 94, 94);
     border: 2px solid rgb(192, 15, 15);
 }
+
 
