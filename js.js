@@ -14,7 +14,7 @@ function calcular() {
     } else {
         const xvalor1 = ((-vB) + Math.sqrt(delta)) / (2*vA);
         const xvalor2 = ((-vB) - Math.sqrt(delta)) / (2*vA);
-        desc = desc + `O valor de X1 = ${xvalor1} e o valor de X2 = ${xvalor2}`
+        desc = desc + `O valor de X1 = ${xvalor1.toFixed(5)} e o valor de X2 = ${xvalor2.toFixed(5)}`
     }
 
     document.getElementById('valor-box').innerHTML = desc;
@@ -30,9 +30,11 @@ function limpar() {
 
 function fechar() {
     document.getElementById("fecha").style.display = "none";
+    document.getElementById("abrir").style.display = "block"
 }
 
 function abrir() {
     document.getElementById("fecha").style.display = "block";
+    document.getElementById("abrir").style.display = "none"
 }
 
